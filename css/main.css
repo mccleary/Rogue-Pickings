@@ -1,0 +1,109 @@
+/****** BASE STYLES ******/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about, #menu, #locations, #gallery, #reviews, #content {
+  height: 600px;
+}
+
+/****** GRID ******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/****** HEADER ******/
+header {
+  height: 400px;
+  background: url("../img/green-beans.jpg");
+  background-size: cover;
+  margin-top: 80px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  /* clear: both; */
+}
+
+span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 10px 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+}
+
+
+/****** TOP SECTION ******/
+#top h3 {
+  font-size: 16px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#top p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/****** BOTTOM SECTION ******/
+#bottom h5 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#bottom p.special {
+  color: #77a466;
+}
+
+#bottom p {
+  font-size: 16px;
+}
+
+
+/****** FOOTER ******/
+#footer {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+}
+
+#footer span {
+  font-weight: lighter;
+  font-style: italic;
+  color: #77a466;
+  text-transform: lowercase;
+}
+
+#footer h4 {
+  text-align: center;
+}

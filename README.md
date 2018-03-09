@@ -1,6 +1,6 @@
-# Site mockup from Photoshop Image File
+# Site mockup title Rogue Pickings from Photoshop Image File
 
-Single page, personal website created from a Photoshop image file using only HTML & CSS
+Single page, sample client site created from a Photoshop image file using only HTML & CSS
 
 * First: Set up your files (html, css, img)
 * Next: Retrieve images from Photoshop file for your img folder
@@ -23,4 +23,4 @@ Single page, personal website created from a Photoshop image file using only HTM
 
 
 ### View Photoshop Image Here
-![Photoshop Image](img/photoshop-site.png)
+![Photoshop Image](img/rogue-pickings.png)
