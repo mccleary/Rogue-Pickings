@@ -1,107 +1,173 @@
-/****** BASE STYLES ******/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#about, #menu, #locations, #gallery, #reviews, #content {
-  height: 600px;
-}
-
-/****** GRID ******/
-.full-width {
-  width: 1200px;
+.container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.half-width {
-  width: 600px;
+h1, h2, h3, h4 {
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.third-width {
-  width: 400px;
-  float: left;
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 30px;
 }
 
 
 /****** HEADER ******/
 header {
-  height: 400px;
-  background: url("../img/green-beans.jpg");
-  background-size: cover;
-  margin-top: 80px;
+  height: 110px;
+  border-bottom: 3px solid #77a466;
+  margin: 0 auto;
 }
 
 header h1 {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px 0;
-  /* clear: both; */
+  float: left;
+  margin: 0;
+  padding: 38px 0;
 }
 
-span {
+header h1 span {
   color: #77a466;
 }
 
-nav {
+header nav {
   float: right;
-  padding: 10px 10px;
+  padding: 46px 0;
 }
 
-nav ul li {
-  display: inline-block;
+header nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a {
+header nav ul li {
   text-transform: uppercase;
-  text-decoration: none;
+  font-weight: 700;
   font-size: 14px;
+  padding: 0 10px;
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
   color: #77a466;
 }
 
 
 /****** TOP SECTION ******/
-#top h3 {
-  font-size: 16px;
+.top-section, .bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.top-image {
+  height: auto;
+  float: left;
+}
+
+.top-image img {
+  border-bottom: 3px solid #77a466;
+}
+
+.top-title {
+  height: auto;
+  float: left;
+}
+
+.top-title h3 {
+  text-align: left;
+  padding: 5px 0;
   color: #77a466;
-  text-transform: uppercase;
 }
 
-#top p {
-  font-size: 18px;
-  font-weight: bold;
+.top-title p {
+  padding: 0;
+  font-size: 16px;
+  line-height: 25px;
 }
-
 
 /****** BOTTOM SECTION ******/
-#bottom h5 {
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
+.section-one, .section-two, .section-three {
+  width: 398px;
+  height: auto;
+  float: left;
+  border-top: 1px solid #eee;
 }
 
-#bottom p.special {
+.section-one h4 {
+  padding: 10px 0;
+}
+
+.section-two {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.section-two h4, .section-three h4 {
+  padding: 10px 30px;
+}
+
+.menu {
+  list-style:
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px 0;
   color: #77a466;
 }
 
-#bottom p {
+.reviews {
+  color: #333;
   font-size: 16px;
+  line-height: 21px;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 24px
 }
 
 
 /****** FOOTER ******/
-#footer {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  float: left;
+footer {
+  height: 50px;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
 }
 
-#footer span {
-  font-weight: lighter;
-  font-style: italic;
-  color: #77a466;
+footer span {
+  font-family: 'Wisdom Script', cursive;
   text-transform: lowercase;
+  color: #77a466;
+  font-size: 14px;
 }
 
 #footer h4 {
