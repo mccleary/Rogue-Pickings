@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
   color: black;
   font-weight: 700;
   text-transform: uppercase;
@@ -21,9 +21,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 30px;
 }
-h2 {
-  font-size: 24px;
-}
+
 h3 {
   font-size: 18px;
 }
@@ -133,7 +131,7 @@ header nav ul li a {
 }
 
 .menu {
-  list-style:
+  list-style: none;
   padding: 0;
 }
 
